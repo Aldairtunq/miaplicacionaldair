@@ -18,9 +18,23 @@
                 <label class="form-label">Selecciona un archivo</label>
                 <input class='form-control form-control-sm' type="file" name="archivo">
             </div>
-          
+            <button class="btn btn-primary btn-sm">Subir archivo</button>
         </form>
         
+        <table class="table table-sm table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>categoria</th>
+                    <th>Archivo</th>
+                    <th>fecha</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+</table>
+
+
 <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -13,3 +13,5 @@
     header("Content-Disposition:inline;filename=$nombre.$categoria");
     echo $archivo;
 ?>
+
+
